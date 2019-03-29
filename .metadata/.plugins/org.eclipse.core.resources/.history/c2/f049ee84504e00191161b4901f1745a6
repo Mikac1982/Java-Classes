@@ -1,0 +1,32 @@
+package com.class12;
+
+public class StringManipulations2 {
+    public static void main(String[] args) {
+	
+    // contains() --> checks for specific values in the string
+    // if value is present --> TRUE, else-->FALSE	
+    	
+    String str="Good morning, students!";
+    boolean contains=str.contains("students");  // if the part of the string is there
+    System.out.println(contains);
+    	
+    String present="Welcome, Milena";
+    String neededValue="WELCOME,";
+    
+    boolean flag=present.contains(neededValue);
+    System.out.println(flag);
+
+    boolean flag1=present.toUpperCase().contains(neededValue);	// because now it is "welcome,"--> False
+    System.out.println(flag1);	
+    	
+    //    
+    String str1="syntax";
+    
+    boolean starts=str1.startsWith("s");
+    System.out.println(starts);
+    
+    
+    	
+    	
+	}
+}

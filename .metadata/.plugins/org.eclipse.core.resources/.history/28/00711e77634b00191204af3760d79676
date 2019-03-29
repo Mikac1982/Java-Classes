@@ -1,0 +1,21 @@
+package com.JavaReview5;
+
+public class Square {
+   public static void main(String[] args) {
+	
+	    // I want to print pattern
+		// ******   rows=5; columns=6
+		// *    *
+		// *    *
+	    // *    *
+		// ******  
+	   
+	 for (int i=1; i<=5; i++)  {
+		 for (int y=1; y<=i; y++) {
+			 
+		 System.out.print("*");
+	 }
+	 System.out.println();
+	   
+}
+}

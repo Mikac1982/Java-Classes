@@ -1,0 +1,13 @@
+package Quizz;
+
+public class Q1 {
+  public static void main(String[] args) {
+	
+	String a="THE LENGHT OF THIS STRING IS WHAT";
+	
+	a=a.toLowerCase();
+	 System.out.println(a); 
+	  
+	  
+}  
+}

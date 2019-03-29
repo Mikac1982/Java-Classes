@@ -1,0 +1,19 @@
+package com.Practice;
+
+public class T2 {
+     public static void main(String[] args) {
+		
+ //       *        row=5; col=9; 
+ //      ***
+ //     *****
+ //    *******
+ //   *********	 
+    
+   
+	 
+	   
+   	  
+    	 
+   	 
+	}
+}

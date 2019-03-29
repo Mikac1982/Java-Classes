@@ -1,0 +1,42 @@
+package com.class9;
+
+import java.util.Scanner;
+
+public class PaymentAg {
+   public static void main(String[] args) {
+	
+	   // Ask user to enter the item they want to buy and the price for the item. 
+		 // Then ask user to pay for it.
+		 // Every time user enters money accumulate the amount and tell user how much is left to pay off the amount. 
+		 // Whenever user done with payments tell them "Thank you for shopping!"  
+		   
+	String item; 
+	int price, payment, extraAm;
+	int sum=0;
+	
+	Scanner scan=new Scanner(System.in); 
+	System.out.println("Please enter a item you want to buy");
+	item=scan.nextLine();
+	System.out.println("Please enter te price of a item");
+	price=scan.nextInt();
+	
+	do {
+	System.out.println("Please pay for the item");	
+	payment=scan.nextInt();
+	sum=sum+payment;
+	
+	if (sum<price)	{
+		System.out.println("You have "+(price-sum)+" left to pay");
+	}
+		
+	}while (sum<price);
+	
+	if (sum>price) {
+		extraAm=sum-price;
+		System.out.println("Thank you for shopping, you have change "+extraAm);
+	}else if (sum==price) {
+		System.out.println("Thank you for shopping");
+	}
+	
+}
+}

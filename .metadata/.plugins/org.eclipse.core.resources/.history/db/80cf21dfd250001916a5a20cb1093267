@@ -1,0 +1,15 @@
+package com.JavaReview5;
+
+public class Homework1 {
+   public static void main(String[] args) {
+	
+       // Write a program to find the index of an array element.
+  
+	 int[] numbers= {2,3,5,7,9,15,50,40,100};
+
+   
+
+
+}
+
+}

@@ -1,0 +1,15 @@
+package com.Java.Review6;
+
+public class String {
+   public static void main(String[] args) {
+	   
+	String str="Hello";
+	str=new String("Hello");
+	   
+	   
+	   
+	   
+	   
+	   
+   }
+}

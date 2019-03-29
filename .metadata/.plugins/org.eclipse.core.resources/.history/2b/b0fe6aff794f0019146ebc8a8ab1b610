@@ -1,0 +1,29 @@
+package ReplTask;
+
+public class Task61 {
+   public static void main(String[] args) {
+	
+   // Write a program to sum the elements in the third row.   
+	   
+	   int[][] a = {
+				{5,2,3,7},
+				{1,5,2,2},
+				{1,2,3,4}
+			};   
+	
+	// System.out.println(a[2][0]+a[2][1]+a[2][2]+a[2][3]);
+	
+	   int sum2=0;
+	   
+	   for (int i=0; i<3; i++) {
+		   
+		//   for (int y=0; y<a[i].length; y++)  {
+			   
+			   sum2=sum2+a[2][i];
+		   
+
+       }	 
+	 System.out.println(sum2);
+   }
+	  
+}

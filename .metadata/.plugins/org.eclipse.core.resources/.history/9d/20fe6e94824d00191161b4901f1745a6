@@ -1,0 +1,42 @@
+package com.class11;
+
+import java.util.Scanner;
+
+public class Task2 {
+   public static void main(String[] args) {
+	
+	// Create an array of countries. 
+	// While retrieving all values from an array print capital for each country. (use 2 different loops).   
+	   
+	String[] country={"Serbia","USA","Italy","Spain"};
+	
+	System.out.println("--------For Loop------"); 
+	
+	for (int i=0; i<country.length; i++) {
+		
+		if (country[i].equals("Serbia")) {
+			System.out.println("Belgrade");
+		
+		}else if (country[i].equals("USA")) {
+			System.out.println("Washington DC");
+	
+		}else if (country[i].equals("Italy"))  {
+			System.out.println("Capital is Rim");
+		
+		}else if (country[i].equals("Spain")) {
+			System.out.println("Madrid");
+		}
+	}
+	System.out.println();
+	
+	// second way
+	String capital;
+	
+	Scanner scan=new Scanner(System.in);
+	for (String state:country) {
+		
+		System.out.println(state);
+		capital=scan.nextLine();
+	}
+}
+}

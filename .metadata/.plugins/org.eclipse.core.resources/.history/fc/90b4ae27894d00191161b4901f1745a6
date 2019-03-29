@@ -1,0 +1,24 @@
+package com.class11;
+
+public class Largest {
+   public static void main(String[] args) {
+	
+	// create an array of integers and find largest number  
+	   
+	  int[] num= {34,6,18,66,27,41,11,79,21,45};
+	  int max=num[0];  
+	  int min=num[0];
+	  
+	  for (int numbers:num) {
+		  
+		  if (numbers>max) {
+			  max=numbers;
+		  }else if (numbers<min) {
+			  min=numbers;
+		  }
+	  }
+	 System.out.println("The largest number is "+max);
+	 System.out.println("The smalest numbers is "+min);  
+	   
+}
+}

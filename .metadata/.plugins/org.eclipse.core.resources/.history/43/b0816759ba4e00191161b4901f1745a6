@@ -1,0 +1,42 @@
+package com.class11;
+
+public class Task2ag {
+   public static void main(String[] args) {
+	
+	// Create an array of countries. 
+    // While retrieving all values from an array print capital for each country. (use 2 different loops).
+	   
+	 String[] country= {"Serbia","Italy","France","Spain"};
+	 
+  for (String countries:country) {
+     String capital = null;
+	 
+     switch (countries) {
+     
+     case "Serbia":
+    	 capital="Belgrade";
+    	 break;
+     case "Italy":
+    	 capital="Rim";
+    	 break;
+     case "France":
+    	 capital="Paris";
+    	 break;
+     case "Spain":
+         capital="Madrid";
+         break;
+       }
+     System.out.println(capital);
+  }
+  System.out.println("------For loop--------");
+	 
+     for (int i=0; i<country.length; i++) {
+    	 
+     }
+  
+  
+  
+  
+  
+}
+}

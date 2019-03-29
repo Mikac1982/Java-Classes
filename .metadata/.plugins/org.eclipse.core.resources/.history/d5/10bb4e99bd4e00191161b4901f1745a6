@@ -1,0 +1,23 @@
+package com.class11;
+
+public class LarSmall {
+   public static void main(String[] args) {
+	
+	// create an array of integers and find largest number and smallest	  
+		 
+	int[] num= {22,6,234,11,39,332,98,69,134};
+	int largest=0;
+	int smallest=0;
+	
+	for (int i=0; i<num.length; i++)  {
+		
+		if (num[i]>largest) {
+			largest=num[i];
+		}if (num[i]<smallest) {
+			smallest=num[i];
+		}
+	}
+	System.out.println("The largest number of an array is "+largest);
+	System.out.println("The smallest number of an array is "+smallest);
+}
+}

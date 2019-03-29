@@ -1,0 +1,11 @@
+package com.JavaReview5;
+
+public class Homework2 {
+   public static void main(String[] args) {
+	
+	   // Write a program to find the maximum and minimum value of an array.    
+	   
+	   
+	   
+}
+}

@@ -1,0 +1,23 @@
+package com.JavaReview5;
+
+public class Task2 {
+    public static void main(String[] args) {
+		
+    // ....1   rows=5 col=5
+    // ...22
+    // ..333
+    // .4444	
+    // 55555	
+    	
+    for (int i=4; i>=1; i--)	{
+    	for (int y=4; y>=1; y--) {
+    		
+    		if (i)
+    		System.out.print(".");
+    	}
+    	System.out.println();
+    }
+    	
+    	
+	}
+}

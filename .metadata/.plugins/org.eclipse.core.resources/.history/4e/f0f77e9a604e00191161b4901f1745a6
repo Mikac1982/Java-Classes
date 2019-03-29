@@ -1,0 +1,16 @@
+package com.class12;
+
+public class StringManipulations3 {
+   public static void main(String[] args) {
+	
+	 String str="Students";
+	 
+	 char character=str.charAt(4);
+	 System.out.println(character);  
+	   
+	   
+	   
+	   
+	   
+}
+}

@@ -1,0 +1,24 @@
+package com.Practice;
+
+public class RemoveSpV {
+  public static void main(String[] args) {
+	  
+	  int arr[]= {1,21,3,40,6,83};
+      int a=3;
+      int arr1[]=new int[arr.length-1];
+
+      
+     for(int i=0,j=0;i<arr.length;++i) {
+          if(arr[i]!=a) {
+              arr1[j]=arr[i];
+              j=j+1;
+              }
+         
+          }
+    for (int i=0; i<arr.length-1; i++) {
+    	System.out.print(arr1[i]+" ");
+    }
+	
+	  
+}
+}

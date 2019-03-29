@@ -1,0 +1,25 @@
+package com.class12;
+
+public class StringManipulations2 {
+    public static void main(String[] args) {
+		
+    String str="Good morning, students!";
+    boolean contains=str.contains("students");  // if the part of the string is there
+    System.out.println(contains);
+    	
+    String present="Welcome, Milena";
+    String neededValue="Welcome,";
+    
+    
+    
+    boolean flag=present.contains(neededValue);
+    System.out.println(flag);
+
+    	
+    	
+    	
+    	
+    	
+    	
+	}
+}

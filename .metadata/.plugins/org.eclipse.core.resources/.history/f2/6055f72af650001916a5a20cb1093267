@@ -1,0 +1,15 @@
+package com.Java.Review6;
+
+public class StringReview {
+   public static void main(StringReview[] args) {
+	   
+	StringReview str="Hello";
+	str=new StringReview("Hello");
+	   
+	   
+	   
+	   
+	   
+	   
+   }
+}

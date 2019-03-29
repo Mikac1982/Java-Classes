@@ -1,0 +1,18 @@
+package JavaReview2;
+
+public class Data {
+	public static void main(String[] args) {
+		
+	String name, gender;
+	int age;
+	int phoneNum;
+	
+	Scanner input=new Scanner(System.in);
+		
+		
+		
+		
+		
+	}
+
+}

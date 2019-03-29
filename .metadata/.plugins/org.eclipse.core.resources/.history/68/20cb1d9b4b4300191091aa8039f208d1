@@ -1,0 +1,12 @@
+package com.class8;
+
+public class Task4 {
+   public static void main(String[] args) {
+	
+	// print even numbers from 20 to 1 (2 ways)
+	   
+	 for (int i=20; i>=1; i--)  {
+		 System.out.print(i+" ");
+	 }
+}
+}

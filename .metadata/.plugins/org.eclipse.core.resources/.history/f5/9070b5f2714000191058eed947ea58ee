@@ -1,0 +1,34 @@
+package com.JavaReview3;
+
+import java.util.Scanner;
+
+public class Num1 {
+	public static void main(String[] args) {
+		// Write a program to find out what to do for the following temperatures
+		// temp>100 print out Stay insade it's too hor
+		// temp >50 and < 99
+		//
+		//
+		//
+		//
+
+		int temp;
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter the temperature");
+		temp = scan.nextInt();
+
+		if (temp > 100) {
+			System.out.println("Stay inside it's too hot");
+		} else if (temp > 50 && temp < 99) {
+			System.out.println("Wear summer clothes");
+		} else if (temp > 30 && temp < 49) {
+			System.out.println("Wear winter clothes");
+		} else if (temp > 10 && temp < 29) {
+			System.out.println("Stay inside it's too cold");
+		} else {
+			System.out.println("Call for help it's too cold outside");
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.class12;
+
+public class StringManipulations2 {
+    public static void main(String[] args) {
+		
+    String str="Good morning, students!";
+    boolean contains=str.contains("students");
+    System.out.println(contains);
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+	}
+}

@@ -1,0 +1,27 @@
+package ReplTask;
+
+public class T63 {
+   public static void main(String[] args) {
+	
+	   
+
+		int[][] a= {
+				{1,1,1},
+				{1,1,1},
+				{1,1,1}
+		};
+		
+	   int row=0;
+       int col=0;
+           for(int i=0;i<a.length;i++) {
+               row++;
+           if(a.length==a[i].length) {
+               col++;
+           }
+       }
+       if(row==col)System.out.println("true");   
+	   
+	   
+	   
+}
+}

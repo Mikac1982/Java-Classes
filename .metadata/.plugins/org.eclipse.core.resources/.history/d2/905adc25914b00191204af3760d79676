@@ -1,0 +1,18 @@
+package com.Practice;
+
+public class Square {
+  public static void main(String[] args) {
+	
+		// ******   rows=4; columns=6
+		// *    *
+		// *    *
+		// ****** 
+	  
+	  for (int i=1; i<=4; i++) {
+		  for (int y=1; y<=6; y++) {
+			  System.out.print("*");
+		  }
+		  System.out.println();
+	  }
+}
+}
