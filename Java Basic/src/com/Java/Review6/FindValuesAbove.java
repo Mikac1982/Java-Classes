@@ -22,18 +22,20 @@ public class FindValuesAbove {
 			 }
 		 }
 	 }
-	 System.out.println("The number of values above 7 is "+count);
+	 System.out.println("The number of values above 7 is "+count);  //3
 	 
 	 System.out.println("------For Each loop------");
 	 
-	 for (int[] arrays:rating) {
-		 for (int elements:arrays) {
+	 int count1=0;
+	 
+	 for (int[] inner:rating) {
+		 for (int elements:inner) {
 			 
 			 if (elements>7) {
-				 count+=1;
+				 count1+=1;
 			 }
 		 }
 	 }
-	 System.out.println("The number of elements avove value 7 is "+count);  
+	 System.out.println("The number of elements above value 7 is "+count);  //????????????????? why 6?
 }
 }

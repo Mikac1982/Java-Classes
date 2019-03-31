@@ -1,0 +1,21 @@
+package com.class14;
+
+public class Split0 {
+   public static void main(String[] args) {
+	
+	 String s="bbaaccaa";
+	 
+	 String[] arr1=s.split("a", 0);
+	   
+	 for (String zero : arr1)  {
+		System.out.println(zero);
+	 }
+	  System.out.println("------Negative limit------");
+	 String[] arr2=s.split("a", -1);
+	 
+	 for (String neg:arr2) {
+		 System.out.println(neg);
+	 }
+	 
+}
+}

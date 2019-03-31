@@ -1,0 +1,19 @@
+package com.class14;
+
+public class Replace {
+  public static void main(String[] args) {
+	
+	// Create a String that will hold a sentence. Write a program to get a new String without any spaces.  
+	
+	  // .replace() --> replacing a char character with a new one 
+	String str="I will be awsome!" ; 
+	System.out.println(str.replace("l", "s"));  
+	
+	// .replaceAll() -->> replace all string with a new one
+	String str1="Hey, where are you going now?";
+	System.out.println(str1.replace("Hey,", ""));
+	
+	String str2="You will 566 me 5004";
+	
+}
+}

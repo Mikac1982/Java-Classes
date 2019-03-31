@@ -1,0 +1,11 @@
+package com.class14;
+
+public class StringSplit {
+   public static void main(String[] args) {
+	
+	 String str="Welcome Syntax Students Batch 4";
+	 
+	 System.out.println(str.split("S"));
+	   
+}
+}

@@ -1,0 +1,18 @@
+package com.class14;
+
+public class ReverseStringWordByWord {
+   public static void main(String[] args) {
+	
+	// Write a java program to reverse String? Reverse a string word by word?    
+	   
+	String str="Everything is going to be fine!"; //fine be to going is Everything
+	
+	String[] arr=str.split(" ");
+	
+	for (String s:arr) {
+		System.out.println(s);
+	}
+	
+	   
+}
+}

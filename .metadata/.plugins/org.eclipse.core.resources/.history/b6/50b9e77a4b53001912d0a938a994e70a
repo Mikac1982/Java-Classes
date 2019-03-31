@@ -1,0 +1,23 @@
+package com.class14;
+
+public class T1 {
+  public static void main(String[] args) {
+	
+ // Write a program to swap 2 numbers without a temporary variable? Swap 2 strings without a temporary variable?  
+	  
+	int x=8;
+	int y=5;
+	
+	System.out.println("Before swap:");
+	System.out.println("num1: "+x);
+	System.out.println("num2: "+y);
+	
+	x=x+y; //13
+	y=x-y; //8
+	x=x-y; 
+	
+	System.out.println("After swap:");
+	System.out.println(x);
+	System.out.println(y);
+}
+}

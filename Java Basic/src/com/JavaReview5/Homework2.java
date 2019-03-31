@@ -5,7 +5,7 @@ public class Homework2 {
 	
 	// Write a program to find the maximum and minimum value of an array.    
 	   
-	int[] numbers= {34,6,18,66,27,41,11,79,21,45};
+	int[] numbers= {34,6,186,66,41,151,79,21,45};
 	
 	int max=numbers[0];
 	int min=numbers[0];

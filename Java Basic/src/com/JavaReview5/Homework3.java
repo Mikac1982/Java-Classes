@@ -10,6 +10,7 @@ public class Homework3 {
 	int[] num= {2,4,6,8,10,12,14,16,18,20};  
 	 
 	System.out.println("Reverse elements of an array are:");
+	
 	for (int i=num.length-1; i>=0; i--) {
 		System.out.print(num[i]+" ");
 	}

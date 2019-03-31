@@ -1,0 +1,14 @@
+package com.class14;
+
+public class Replace {
+  public static void main(String[] args) {
+	
+	// Create a String that will hold a sentence. Write a program to get a new String without any spaces.  
+	  
+	String str="I will be awsome!" ; 
+	System.out.println(str.replace("l", "s"));  
+	
+	String str1="Where are you going now?";
+	System.out.println(str1.replaceAll(str1, "I won't tell you"));
+}
+}

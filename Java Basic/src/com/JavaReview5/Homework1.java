@@ -5,12 +5,12 @@ public class Homework1 {
 	
        // Write a program to find the index of an array element.
   
-	   int a[]= {13,2,3,44,26,9,55,121};
-       int b=44;
+	   int arr[]= {13,2,3,44,26,9,55,121};
+       int a=44;
        
-       for(int i=0; i<a.length; i++) {
+       for(int i=0; i<arr.length; i++) {
          
-    	   if(a[i]==b)  
+    	   if(arr[i]==a)  
     		   
        System.out.println(i); 	   
        

@@ -1,0 +1,29 @@
+package com.class14;
+
+public class AGAIN {
+   public static void main(String[] args) {
+	
+	// INTERVIW QUESTION!!!!!
+	  	   
+	// Reverse a String without using a reverse function   
+	 	 
+	 	// first-- using toCharArray();   
+	   
+	String str="Today is a Java Class";
+	String replaced="";
+	
+	char[] array=str.toCharArray();
+	
+	for (int i=array.length-1; i>=0; i--) {
+		replaced+=array[i];
+	}
+	System.out.println(replaced);   
+	  // second - using atChart() ;
+	   
+	   
+	   
+	   
+	   
+	   
+}
+}

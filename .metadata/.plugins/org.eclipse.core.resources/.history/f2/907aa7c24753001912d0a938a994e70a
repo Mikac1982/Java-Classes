@@ -1,0 +1,22 @@
+package com.class14;
+
+public class T5 {
+   public static void main(String[] args) {
+	
+   //5. Write a java program to reverse String? Reverse a string word by word?    
+	   
+	   String str="Today is not a good day";  
+	  
+	   System.out.println("Using toCharArray()");
+	   char[] array=str.toCharArray();
+	   
+	   for (int i=str.length()-1; i>=0; i--)  {
+		   System.out.print(array[i]);
+	   }
+	  
+	   
+	   
+	   
+	   
+}
+}
