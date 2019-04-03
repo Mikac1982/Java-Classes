@@ -5,31 +5,27 @@ public class IntQ1 {
 	
  // Write a program to swap 2 numbers without a temporary variable? Swap 2 strings without a temporary variable?  
 	  
-	int a=15;
-	int b=5;
+	int a=5;
+	int b=15;
 	
-	System.out.println("Before swap:");
-	System.out.println("a: "+a);
-	System.out.println("b: "+b);
+	a=a+b;  // 5+15=20
+	b=a-b;  // 20-15=5
+	a=a-b;  // 20-5=15
 	
-	a=a+b;  // 15+5=20
-	b=a-b;  // 20-5=15
-	a=a-b;  // 20-15=5
+	System.out.println("After swap the value of a="+a+", value of b="+b);
 	
-	a=a*b;  // 15*5=75
-	b=a/b;  // 75/5=15
-	a=a/b;  // 75/15=5
+	System.out.println();
 	
-	a=a-b;  // 15-5=10
-	b=a+b;  // 10+5=15
-	a=b-a;  // 15-10=5
+	String str1="Hello";  //5
+	String str2="World";  //5
 	
-//	a=a/b;  // 15/5=3
-//	b=a*b;  // 3*5=15
-//	a=b/a;  // 15/3=5      
+	str1=str1+str2;   //HelloWorld-->10
+	str2=str1.substring(0, str1.length()-str2.length());  //Hello
+	str1=str1.substring(str2.length());
 	
-	System.out.println("The value of a="+a+", value of b="+b);
-	System.out.println("a: "+a);
-	System.out.println("b: "+b);
+	System.out.println("The value of str1="+str1);
+	System.out.println("The value of str2="+str2);
+	
+	
 }
 }

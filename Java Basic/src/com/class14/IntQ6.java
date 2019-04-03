@@ -7,20 +7,18 @@ public class IntQ6 {
 	
   // Write a Java Program to find whether a String is palindrome or not?
 	   
-//	 String str="madam";
-	   
 	 Scanner scan=new Scanner(System.in);
-	 System.out.println("Please enter a word to check if it is a palindrome");
-	 String word=scan.nextLine();
+	 System.out.println("Please enter a String to check if it is a palindrome");
+	 String str=scan.nextLine();
 	 
-	 String reversed="";
+	 String reverse="";
 	  
-	 for (int i=word.length()-1; i>=0; i--) {
-         reversed+=word.charAt(i);
+	 for (int i=str.length()-1; i>=0; i--) {
+         reverse+=str.charAt(i);
 	 }
-	 System.out.println(reversed);
+	 System.out.println(reverse);
 	   
-	 if (reversed.equalsIgnoreCase(word)) {
+	 if (str.equalsIgnoreCase(reverse)) {
 		 System.out.println("String is a palindrome");
 	 }else {
 		 System.out.println("String is not a palindrome");

@@ -7,12 +7,14 @@ public class JavaArray12 {
 	   
 	int[] arr= {2,55,3,9,10,3,24,2,10};
 	
-	for (int i=0; i<arr.length; i++) {
+	System.out.println("Duplicate values of an array are:");
+	
+	for (int i=0; i<arr.length-1; i++) {
 		
 		for (int y=i+1; y<arr.length; y++)	{
 			
 			if (arr[i]==arr[y]) {
-				System.out.print(+arr[i]+" ");
+				System.out.print(+arr[y]+" ");
 			}
 		}   
 	}   

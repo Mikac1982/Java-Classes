@@ -7,7 +7,7 @@ public class JavaArray11 {
 	
 	// Write a program to reverse an array of integer values   
 	
-	 int[] arr= {66,3,713,44,92,19,39,6,0};
+	 int[] arr= {1,3,4,7,11,18,29};
 	 
 	 // with for loop
 	 for (int i=arr.length-1; i>=0; i--) { 
@@ -18,8 +18,7 @@ public class JavaArray11 {
 	// with Scanner
 	int size;
 	
-	Scanner scan=new Scanner(System.in); // create scanner object for taking input
-	
+	Scanner scan=new Scanner(System.in); // create a scanner object for taking input
 	System.out.println("Enter the size of an array"); 
 	size=scan.nextInt();       // capturing the number of elements in to size
 	

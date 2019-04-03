@@ -1,0 +1,15 @@
+package INTERVIEWQuestions;
+
+public class Q2 {
+  public static void main(String[] args) {
+	
+	  String str1 = "Best";
+      String str2 = "Group";
+
+      System.out.println("After swap str1 is: " + str1.replace("Best", "Group"));
+      System.out.println("After swap str2 is: " + str1.replace("Group", "Best"));  
+	  
+	  
+	  
+}
+}

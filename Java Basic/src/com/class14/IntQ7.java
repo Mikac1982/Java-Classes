@@ -6,7 +6,7 @@ public class IntQ7 {
 	// 7. Write a java program to check whether a given number is prime or not?   
 	// a prime number --> can be divided just by itself and 1 
 	   
-	int num=13;
+	int num=17;
 	boolean isPrime=true;
 	
 	for (int i=2; i<num; i++) {  //or i<num/2

@@ -5,7 +5,7 @@ public class JavaArray17 {
 	
 	// Write a Java program to find the second largest element in an array.  
 	  
-	int[]  arr= {2,15,8,1,14};
+	int[]  arr= {22,155,-8,1,14,454};
 	
 	int largest=0;
 	int secondLar=0;
@@ -15,6 +15,7 @@ public class JavaArray17 {
 		if (arr[i]>largest) {
 		   secondLar=largest;
 		   largest=arr[i];
+		   
 		} else if (arr[i] > secondLar) {
         secondLar = arr[i];
 	}

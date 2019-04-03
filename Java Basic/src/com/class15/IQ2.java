@@ -6,11 +6,11 @@ public class IQ2 {
   //2.Write a java program to find the second largest number in the array?
   //  Maximum and minimum number in the array?  
 	   
-	int arr[]= {140,-46,0,486,292,-1};     // ?????
-	
-	 int min=arr[0];        //144 starting with index 0=144
-	 int secondLar=0;  //144
-	 int largest=arr[0];    //144
+	 int arr[]= {144,-46,0,486,92,-1};     // ?????
+	     
+	 int largest=arr[0];    //144 starting with index 0=144
+	 int min=arr[0];       
+	 int secondLar=0;  
 	 
 	 for (int a:arr) {     
 		 if (a>largest) {

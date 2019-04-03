@@ -1,0 +1,35 @@
+package com.Practice;
+
+public class MinSecondMin {
+  public static void main(String[] args) {
+	
+  // Write a program to find out minimum and second minimum number of an array. 	  
+	    
+	int[] arr= {65,14,-153,253,-72,1,144};
+	
+	int min=arr[0];
+	int secondMin=0;
+	int max=arr[0];
+			
+	for (int a:arr)  {
+		
+		if ( a<min) {
+			secondMin=min;
+			min=a;
+		}else if (a>max) {
+			max=a;
+		}else if (a>secondMin) {
+			secondMin=a;
+		}
+	}
+	
+//	for (int a : arr) {
+//		if (a<secondMin && a>min) {
+//			secondMin=a;
+//		}
+//	}
+	System.out.println("Minimu        :"+min);  
+	System.out.println("Second Minimum:"+secondMin);  
+	System.out.println("Maximum       :"+max);
+}
+}

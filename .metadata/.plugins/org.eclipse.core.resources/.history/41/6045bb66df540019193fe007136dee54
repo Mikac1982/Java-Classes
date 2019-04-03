@@ -1,0 +1,38 @@
+package INTERVIEWQuestions;
+
+public class Q1 {
+   public static void main(String[] args) {
+	
+	 // Write a program to swap 2 numbers without a temporary variable?
+	 // Swap 2 strings without a temporary variable?    
+	   
+	int a=20; 
+	int b=10;
+	
+	a=a-b;  //10
+	b=a+b;  //10+10=20
+	a=b-a;  //20-10=10
+	
+	System.out.println("After swap number a="+a+",and number b="+b);
+	
+	// Strings
+	String str1="Hello";
+	String str2="World";
+	
+	str1=str2.replace("Hello","World");
+	str2=str1.replace("World","Hello");
+	
+	System.out.println("String str1: "+str1 );
+	System.out.println("String str2: "+str2);
+	
+	// second way 
+	
+	str1=str1+str2; //HelloWorld
+	str2=str1.substring(0, 5);
+	str1=str2.substring(5);
+	
+	System.out.println("String str1: "+str1);
+	System.out.println("String str2: "+str2);
+	
+}
+}

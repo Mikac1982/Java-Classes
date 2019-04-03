@@ -1,22 +1,29 @@
 package com.Practice;
 
+import java.util.Scanner;
+
 public class CopyArr {
    public static void main(String[] args) {
 	
-	   // Write a Java program to insert an element (specific position) into an array  
-	          // 0  1  2  3 4 5  6
-	int[] arr= {111,3,55,76,9,54,231};
+	// Write a program to reverse an array of integer values   
 	
-	int a=19;   // insert 19 into position of 5
+	int size;
 	
-	for (int i=0; i<arr.length; i++) {
-		if (i==5) {
-			arr[i]=a;
-		}
-	System.out.print(arr[i]+" ");
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Please enter the size of an array");
+    size=scan.nextInt();
+    
+    int[] num=new int[size];
+    
+    System.out.println("Please enter an array values");
+    for (int i=0; i<size; i++) {
+	    num[i]=scan.nextInt();
+    }
+	System.out.println("Reversed array:");
+    
+	for (int i=size-1; i>=0; i--) {
+		System.out.println(num[i]);
 	}
-
-		
 	
 }
 }

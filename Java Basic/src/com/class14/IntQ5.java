@@ -3,8 +3,7 @@ package com.class14;
 public class IntQ5 {
    public static void main(String[] args) {
 	
-   // 4.How to find out the part of the string from a string?
-	  
+	//5. Write a java program to reverse String? Reverse a string word by word?
 	   
 	   String str="Everything is going to be fine";  
 	  
@@ -13,7 +12,7 @@ public class IntQ5 {
 	   char[] array=str.toCharArray();
 	   
 	   for (int i=str.length()-1; i>=0; i--)  {
-		   System.out.print(array[i]);
+		  System.out.print(array[i]);
 	   }
 	   System.out.println();
 	   
