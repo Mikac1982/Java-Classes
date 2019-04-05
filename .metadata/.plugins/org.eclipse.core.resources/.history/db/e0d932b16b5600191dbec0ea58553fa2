@@ -1,0 +1,35 @@
+package com.Review7;
+
+import java.util.Scanner;
+
+public class ReviewClass {
+
+	String eyes, hair, nose, shirt;
+	
+	public static void main(String[] args) {
+	
+		ReviewClass weqas=new ReviewClass();
+//		weqas.eyes="blue";
+//		weqas.hair="black";
+//		weqas.nose="brown";
+//		weqas.shirt="gray";
+//		weqas.humanEyes();
+//		
+//		ReviewClass weqas1=new ReviewClass();
+//		weqas1.eyes="green";
+//		
+//		System.out.println(weqas1.eyes);
+		weqas.scannerFirstName();
+	}
+	void humanEyes() {    
+		ReviewClass weqas=new ReviewClass();
+		weqas.eyes="red";
+		System.out.println(weqas.eyes);
+	}
+	void scannerFirstName() {
+		Scanner scan=new Scanner(System.in);
+		scan.nextLine();
+	}
+	
+	
+}

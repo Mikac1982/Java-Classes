@@ -1,0 +1,15 @@
+package com.JavaReview7;
+
+public class NoReturnType {
+
+	public static void main(String[] args) {
+	
+	NoReturnType type=new NoReturnType();
+	type.noReturn();
+	
+	
+	}
+  void noReturn() {
+	System.out.println("I do not have a return type");
+}
+}

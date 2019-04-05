@@ -1,0 +1,17 @@
+package com.Review7;
+
+public class Task {
+
+	// Create a method that has no return type
+	// and have it print it "I do not have a return type"
+	
+	public static void main(String[] args) {
+	
+		Task cl=new Task();
+		cl.noreturn();
+		
+	}
+	void noreturn() {
+		System.out.println("I do not have a return type");
+	}
+}

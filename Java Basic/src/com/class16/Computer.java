@@ -8,7 +8,7 @@ public class Computer {
 	    
 	  public static void main(String[] args) {
 	    
-	    Computer comp1=new Computer();
+	    Computer comp1=new Computer();  //we created a new object of the class Computer
 	    
 	    comp1.mouse=true;
 	    comp1.keyboard=true;

@@ -1,0 +1,33 @@
+package com.class17;
+
+public class Greetings {
+
+	public static void main(String[] args) {
+		
+		Greetings obj=new Greetings();
+	//	obj.hello();
+	  //how to find largest number
+	//	obj.findLargest(20,10);          //A is larger than B
+	//	obj.findLargest(30,31);          //A is larger than B
+	//	obj.findLargest(2000,  666666);  //B is larger than A
+		
+		obj.helloToInstructor("Awet");  //calling a method hello
+	}
+	void hello() {
+		System.out.println("Hello");
+	}
+	void helloToInstructor(String name) {
+		System.out.println("Hello Asel");  
+	}
+	
+	void findLargest(int a, int b) {
+		
+		
+		if (a>b) {
+			System.out.println("A is larger than B");
+		}else {
+			System.out.println("B is larger than A");
+		}
+		
+	}
+}

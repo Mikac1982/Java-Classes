@@ -1,0 +1,28 @@
+package com.Review7;
+
+public class ReviewClass {
+
+	String eyes, hair, nose, shirt;
+	
+	public static void main(String[] args) {
+	
+		ReviewClass weqas=new ReviewClass();
+		weqas.eyes="blue";
+		weqas.hair="black";
+		weqas.nose="brown";
+		weqas.shirt="gray";
+		weqas.humanEyes();
+		System.out.println();
+		ReviewClass weqas1=new ReviewClass();
+		weqas1.eyes="green";
+		
+		System.out.println(weqas1.eyes);
+	}
+	void humanEyes() {
+		ReviewClass weqas=new ReviewClass();
+		weqas.eyes="red";
+		System.out.println(weqas.eyes);
+	}
+	
+	
+}

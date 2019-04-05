@@ -2,7 +2,7 @@ package com.class16;
 
 public class Computer1 {
 
-	String os, brand;                  // define our VARIABLES (attributes, futures, states)!
+	String os, brand;                  // define(declaring) our VARIABLES (attributes, futures, states)!
 	boolean mouse, keyboard;
 	int screen, ram;
 	
@@ -38,8 +38,8 @@ public class Computer1 {
 		comp2.doJavaCoding();
 		comp2.playMusic();
 	}	
-	
-	void watchMovie() {         // declaring our METHODS (behaviors)!
+	 // declaring our METHODS (behaviors)!
+	void watchMovie() {        
 		System.out.println("We can watch movie on a computer "+brand);
 	}
 	void doJavaCoding() {

@@ -8,7 +8,6 @@ public class Phone {
 	String model, color, os;
 	int screen,size ;
 	
-	
 	public static void main(String[] args) {
 			
 	Phone phone1=new Phone();
