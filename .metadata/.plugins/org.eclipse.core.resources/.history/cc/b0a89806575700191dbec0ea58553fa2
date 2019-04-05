@@ -1,0 +1,31 @@
+package com.JavaReview7;
+
+public class Task1 {
+
+   /* Create a method that shows you all the vowals in a string
+    * Output: should only show these characters a,e,i,o,u,A,E,I,O,U,
+    * This method can have any string value you put in, but must return all the vowals within the string 
+	*/
+	
+	//String str;
+	
+	public static void main(String[] args) {
+		
+		Task1 obj=new Task1();
+		obj.show();
+			
+		
+	}
+	void show() {
+		String str="Hello world my name is weqas";
+		String replace=str.replaceAll("[^aA,eE,iI,oO,uU]", "");
+		System.out.println(replace.length());
+	}
+	
+  
+	
+	
+	
+	
+	
+}

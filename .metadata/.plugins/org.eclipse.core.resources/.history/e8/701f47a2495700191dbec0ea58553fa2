@@ -5,16 +5,16 @@ public class Task {
   //Create a method that will take a number and prints whether the number is even or odd.
   //Create a method that will print whether given String is palindrome or not.
 	
+	int a,b;
 	public static void main(String[] args) {
 		
 		
 		Task obj=new Task();
-		obj.isLarger(20,310);
-		obj.evenOrOdd(57);	
-		obj.isPalindrome("madam");
+		obj.largerNum(20,10);
+		obj.evenOrOdd(54);	
 	}
 	
-	void isLarger (int a,int b) {
+	void largerNum (int a, int b) {
 		
 		if (a>b) {
 			System.out.println(a+" is larger than "+b);
@@ -26,26 +26,13 @@ public class Task {
 	void evenOrOdd(int num) {
 		
 		if (num%2==0) {
-			System.out.println(num+" is even number");
+			System.out.println("Number "+num+" is even");
 		}else {
-			System.out.println(num+" is odd number");
+			System.out.println("Number is odd");
 		}
 	}
 	
-	void isPalindrome(String str) {
-		
-		String reverse="";
-		
-		for (int i=str.length()-1; i>=0; i--) {
-			reverse+=str.charAt(i);
-		}
-		if (reverse.equalsIgnoreCase(str)) {
-			System.out.println(str+" is a palindrome");
-		}else {
-			System.out.println(str+" is not a palindrome");
-		}
-		
-	}
+	
 	
 	
 	

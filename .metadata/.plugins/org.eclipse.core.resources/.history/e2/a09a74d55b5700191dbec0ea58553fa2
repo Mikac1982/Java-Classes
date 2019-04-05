@@ -7,8 +7,7 @@ public class ReviewClass {
 	String eyes, hair, nose, shirt;  //GLOBAL VARIABLE (ATTRIBUTTES)
 	
 	public static void main(String[] args) {
-		
-	     //LOCAL VARIABLE
+	
 		ReviewClass weqas=new ReviewClass();
 //		weqas.eyes="blue";
 //		weqas.hair="black";
@@ -16,8 +15,8 @@ public class ReviewClass {
 //		weqas.shirt="gray";
 //		weqas.humanEyes();
 //		
-//		ReviewClass weqas1=new ReviewClass();  //new object
-//		weqas1.eyes="green";                   //with new variable
+//		ReviewClass weqas1=new ReviewClass();
+//		weqas1.eyes="green";
 //		
 //		System.out.println(weqas1.eyes);
 		weqas.scannerFirstName();   // i call

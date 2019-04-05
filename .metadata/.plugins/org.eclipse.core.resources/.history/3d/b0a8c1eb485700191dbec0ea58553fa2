@@ -8,7 +8,7 @@ public class Greetings1 {
 		obj.askHowAreYou("Milena");  //calling just one method, only matching one 
 		
 	}
-	//void is a return type, askHowAreYou - method name
+	
 	void askHowAreYou(String name) {
 		System.out.println("How are you "+name);
 	}

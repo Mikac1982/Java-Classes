@@ -19,7 +19,7 @@ public class NoMainMethod {
 	public static void main(String[] args) {  //method signature 
 		
 		NoMainMethod obj=new NoMainMethod();  // method body
-		obj.hello();     //we are CALLING a method hello
+		obj.hello();     //we CALLING a method hello
 		obj.bye();
 	}
 	
