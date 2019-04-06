@@ -1,0 +1,15 @@
+package com.class18again9;
+
+import com.class18.Calculator;
+
+public class Aplications {
+
+	
+	public static void main(String[] args) {
+		
+		Calculator obj=new Calculator();
+		
+		obj.sum(3, 4);
+		
+	}
+}

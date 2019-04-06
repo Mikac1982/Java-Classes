@@ -1,0 +1,27 @@
+package com.Practice;
+
+public class ReturnValueMethod {
+
+	public static void main(String[] args) {
+		
+		String str = "Hello";
+      
+		int stringLength=str.length();   //int str length=5
+		System.out.println(stringLength);
+		
+		ReturnValueMethod obj=new ReturnValueMethod();
+		//String str=obj.askHowAreYou("Asel");
+		String day=obj.whatIsADay();
+		
+		
+	}
+	
+	void askHowAreYou(String name) {// parameter
+		System.out.println("How are you " + name);
+	}
+	
+	String whatIsADay() {
+	   return "Thursday";
+	
+}
+}

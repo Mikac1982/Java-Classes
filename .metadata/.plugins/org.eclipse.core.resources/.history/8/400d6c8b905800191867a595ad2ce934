@@ -1,0 +1,21 @@
+package com.class18;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		
+		Calculator obj=new Calculator ();
+		obj.sub(23, 7);
+		obj.div(20, 5);
+		obj.mult(3, 5);
+	}
+	void sub(int a,int b) {
+		System.out.println(a-b);
+	}
+	void div(int a,int b) {
+		System.out.println(a/b);
+	}
+	void mult(int a,int b) {
+		System.out.println(a*b);
+	}
+}

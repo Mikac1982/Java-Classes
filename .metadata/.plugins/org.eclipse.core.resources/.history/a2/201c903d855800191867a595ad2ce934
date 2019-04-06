@@ -1,0 +1,39 @@
+package com.class18;
+
+import java.util.Scanner;
+
+public class ScannerMethod {
+
+	
+	public static void main(String[] args) {
+		
+		ScannerMethod obj=new ScannerMethod ();
+		
+		Scanner scan=new Scanner(System.in);
+		int a=scan.nextInt();
+		int b=scan.nextInt();
+		obj.sum(a, b);
+		
+		obj.sum(33, 6);
+		obj.sum(401,44);
+		
+		obj.sub();
+		obj.sub();
+	}
+	
+	
+	void sum(int x,int y) {        //dinamic(have paremeters)
+		System.out.println(x+y);
+	}
+	
+	void sub() {                  //not dinamic(do not have parameters)
+		int a=10; int b=12;
+		System.out.println(a+b);
+	}
+	
+	
+	
+	
+	
+	
+}

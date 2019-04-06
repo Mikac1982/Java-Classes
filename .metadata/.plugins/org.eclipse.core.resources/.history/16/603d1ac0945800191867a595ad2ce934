@@ -1,0 +1,17 @@
+package com.class18again9;
+
+import com.class18.Calculator;
+
+public class Aplications {
+
+	
+	public static void main(String[] args) {
+		
+		Calculator obj=new Calculator();
+		
+		obj.sum(3, 4);
+		obj.sum(4, 6);
+		obj.div(20, 4);
+		obj.mult(3, 6);
+	}
+}

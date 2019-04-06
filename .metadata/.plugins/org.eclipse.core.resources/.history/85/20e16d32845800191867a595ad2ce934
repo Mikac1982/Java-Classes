@@ -1,0 +1,26 @@
+package com.class18;
+
+public class ScannerMethod {
+
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	
+	void sum(int x,int y) {
+		System.out.println(x+y);
+	}
+	
+	void cub() {
+		int a=10; int b=12;
+		System.out.println(a+b);
+	}
+	
+	
+	
+	
+	
+	
+}

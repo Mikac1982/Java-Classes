@@ -1,0 +1,43 @@
+package com.class18;
+
+import java.util.Scanner;
+
+public class ScannerMethod {
+
+	
+	public static void main(String[] args) {
+		
+		ScannerMethod obj=new ScannerMethod ();
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Please enter number a and number b");
+		
+		int a=scan.nextInt();
+		int b=scan.nextInt();
+		int sum=obj.sum(a, b);
+		//System.out.println(obj.sum(a, b));
+		
+	//	obj.sum(33, 6);
+	//	obj.sum(401,44);
+		
+	//	obj.sub();  //22
+	//	obj.sub();  //22
+	}
+	
+	
+	int sum(int a,int b) {        //dinamic(have/take paremeters)
+	//	System.out.println(a+b);
+		return a+b;
+	}
+	
+	void sub() {                  //not dinamic(do not have/take parameters)
+		int a=10; int b=12;
+		System.out.println(a+b);
+	}
+	
+	
+	
+	
+	
+	
+}

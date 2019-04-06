@@ -1,0 +1,21 @@
+package com.class18again9;
+
+import com.class18.Calculator;
+
+public class Aplications {
+
+	
+	public static void main(String[] args) {
+		
+		Calculator obj=new Calculator();
+		
+		int sum=obj.sum(12,34);
+		int sub=obj.sub(60,30);
+		int div=obj.div(60,12);
+		int mult=obj.mult(8,8);
+		System.out.println(sum);
+		System.out.println(sub);
+		System.out.println(div);
+		System.out.println(mult);
+	}
+}

@@ -1,0 +1,25 @@
+package com.class18;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		
+		Calculator obj=new Calculator ();
+		obj.sum(4, 8);
+		obj.sub(27, 7);
+		obj.div(20, 5);
+		obj.mult(3, 5);
+	}
+	 void sum(int a,int b) {
+		System.out.println(a+b);
+	}
+	public void sub(int a,int b) {
+		System.out.println(a-b);
+	}
+	protected void div(int a,int b) {
+		System.out.println(a/b);
+	}
+	private void mult(int a,int b) {
+		System.out.println(a*b);
+	}
+}

@@ -1,0 +1,16 @@
+package com.Practice;
+
+public class ReturnValueMethod {
+
+	public static void main(String[] args) {
+		
+		String str = "Hello";
+      
+		int stringLength=str.length();
+		System.out.println(stringLength);
+	}
+	
+	
+	
+	
+}
