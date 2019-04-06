@@ -1,0 +1,30 @@
+package com.class17;
+
+public class Gretingss {
+
+	public static void main(String[] args) {
+		
+		Gretingss obj=new Gretingss();
+		obj.hello();
+   //how to find largest number
+		obj.findLargest(20,10);
+		obj.findLargest(33,137);
+		
+	}
+	
+	void hello() {
+		System.out.println("Hello");
+	}
+	void findLargest(int a,int b) {
+		
+		if (a>b) {
+			System.out.println("A is larger than B");
+		}else {
+			System.out.println("B is larger than A");
+		}
+		
+	}
+	
+	
+	
+}

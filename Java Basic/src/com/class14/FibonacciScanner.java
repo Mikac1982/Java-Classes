@@ -3,11 +3,14 @@ package com.class14;
 import java.util.Scanner;
 
 public class FibonacciScanner {
-   public static void main(String[] args) {
-	   
-	   //8. Write a Java Program to print first 10 numbers of Fibonacci series.
+  
+	   //Create a method that will print whether given String is palindrome or not.
+	   //Create a method that will check whether a given number is prime or not.
+	   // Create a method to print first 10 numbers of Fibonacci series.
 	   //   0,1,1,2,3,5,8,13,21,34
-	   
+	
+  public static void main(String[] args) {   
+	  
 	int a=0; 
 	int b=1;
 	int c;
@@ -25,9 +28,6 @@ public class FibonacciScanner {
 		a=b;
 		b=c;
 	}
-	
-	
-	
 	
 	
 }

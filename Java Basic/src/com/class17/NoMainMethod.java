@@ -7,8 +7,8 @@ public class NoMainMethod {
 	int num;
 	
 	void hello() {
-	//	System.out.println("Hello");
-	//	System.out.println("Hello friends");
+		System.out.println("Hello");
+		System.out.println("Hello friends");
 	//	System.out.println("Hello");
 	//	System.out.println("Hello friends");
 	}
@@ -19,7 +19,7 @@ public class NoMainMethod {
 	public static void main(String[] args) {  //method signature 
 		
 		NoMainMethod obj=new NoMainMethod();  // method body
-		obj.hello();     //we are CALLING a method hello
+		obj.hello();     //we are CALLING a method hello (trying to access, to use a method)
 		obj.bye();
 	}
 	

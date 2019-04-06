@@ -12,6 +12,7 @@ public class TestClass {
 	
     str.isEmpty(); //built-in method that comes with string class
 	str.charAt(4);
+	
     Scanner scan=new Scanner(System.in);
     scan.nextInt();
     

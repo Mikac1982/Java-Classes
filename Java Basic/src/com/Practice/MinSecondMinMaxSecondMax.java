@@ -3,7 +3,7 @@ package com.Practice;
 public class MinSecondMinMaxSecondMax {
   public static void main(String[] args) {
 	
-  // Write a program to find out minimum,second minimum,maximum and second maximum number of an array. 	  
+  // Write a Java program to find out minimum,second minimum,maximum and second maximum number of an array. 	  
 	    
 	int[] arr= {99,-95,14,-153,453,104,1,144};
 	

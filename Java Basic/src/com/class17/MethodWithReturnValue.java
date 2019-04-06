@@ -17,7 +17,7 @@ public class MethodWithReturnValue {
 		System.out.println("Today is " + day);
 		
 		//int num=obj.findLargestNum(20, 10);
-		int largestNum=obj.findLargestNum1(20, 10);
+		int largestNum=obj.findLargestNum1(10, 20);
 		
 		boolean isOdd;
 		
@@ -39,7 +39,7 @@ public class MethodWithReturnValue {
 		return "Thursday";
 	}
 
-	void findLargestNum(int a, int b) {
+	void findLargestNum(int a, int b) {  //no return value
 
 		if (a < b) {
 			System.out.println("A is largar than B");
@@ -47,7 +47,7 @@ public class MethodWithReturnValue {
 			System.out.println("B is largar than A");
 		}
 	}
-	int findLargestNum1(int a, int b) {
+	int findLargestNum1(int a, int b) {  //returning value
 
 		if (a > b) {
 			return a;

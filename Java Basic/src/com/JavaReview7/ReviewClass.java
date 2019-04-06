@@ -8,6 +8,7 @@ public class ReviewClass {
 	
 	public static void main(String[] args) {
 		
+		String ear="left";
 	     //LOCAL VARIABLE
 		ReviewClass weqas=new ReviewClass();
 //		weqas.eyes="blue";

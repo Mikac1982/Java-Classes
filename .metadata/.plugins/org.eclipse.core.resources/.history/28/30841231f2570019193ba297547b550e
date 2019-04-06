@@ -1,0 +1,42 @@
+package com.class17;
+
+public class FibanocciMethod {
+	//Create a method to print first 10 numbers of Fibonacci series.
+	
+	public static void main(String[] args) {
+		
+		FibanocciMethod obj=new FibanocciMethod();
+		obj.Fibanocci();
+		
+	}
+	
+	void Fibanocci() {
+		
+		int a=0;
+		int b=1;
+		int c;
+		System.out.print(a+" "+b+" ");
+		
+		for (int i=2; i<10; i++) {
+		    c=a+b;
+		    a=b;
+		    b=c;
+		    System.out.print(c);	
+		}
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,26 @@
+package com.Practice;
+
+public class Methods {
+   //Create a method that ask different people how are you 
+	public static void main(String[] args) {
+		
+		Methods obj=new Methods();
+		obj.askHowAreYou("Milena");
+		
+		
+		
+	}
+	
+	void askHowAreYou(String name) {
+		System.out.println("How are you?");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

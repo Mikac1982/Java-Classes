@@ -40,7 +40,7 @@ public class Computer1 {
 	}	
 	 // declaring our METHODS (behaviors)!
 	void watchMovie() {        
-		System.out.println("We can watch movie on a computer "+brand);
+		System.out.println("We can watch movie on a computer "+brand);  //Contaminating brand
 	}
 	void doJavaCoding() {
 		System.out.println("We can do Java coding on our computer "+brand);

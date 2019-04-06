@@ -1,0 +1,18 @@
+package com.class17;
+
+public class Gretingss {
+
+	public static void main(String[] args) {
+		
+		Gretingss obj=new Gretingss();
+		obj.hello();
+	}
+	
+	void hello() {
+		System.out.println("Hello");
+	}
+	
+	
+	
+	
+}
