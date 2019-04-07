@@ -1,0 +1,32 @@
+package com.class19;
+
+public class Task {
+
+	public class A
+	{
+	  protected A()
+	  {
+	      //protected constructor
+	  }
+	}
+
+	package pack2;
+
+	import pack1.A;
+
+	class B
+	{
+	  A a = new A();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

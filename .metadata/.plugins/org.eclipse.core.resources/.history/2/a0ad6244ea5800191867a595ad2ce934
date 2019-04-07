@@ -1,0 +1,30 @@
+package ReplTask;
+
+public class Task93 {
+
+	/*Returns: a char
+     Method Name: getChar
+     Parameters:
+     a String called "word"
+     an integer called "index
+     Then, starting on line 4, write code that will return the character in "word" at the index "index"
+     Examples:
+     getChar("hello",1) ==> 'e'
+	 */
+	
+	char getChar(String word, int index){
+	    for (int i=0; i<word.length(); i++) {
+	    	System.out.println(word.charAt(1));
+	    	
+	    }
+		return 0 ;
+	}
+	public static void main(String[] args) {
+		
+		Task93 obj=new Task93();
+		System.out.println(obj.getChar("hello",1));//should be e
+	}
+	
+	
+	
+}

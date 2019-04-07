@@ -1,0 +1,29 @@
+package com.class19;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Human person1=new Human();  //creating an objct of human class
+		
+	//	person1.eyeColor="pink";
+		
+		System.out.println(person1.eyeColor); // now we are getting same values from the human class
+		System.out.println(person1.gender);   //this is just a copy, if we now change the values it will print new values
+		System.out.println(person1.height);
+		System.out.println(person1.weight);
+		
+		person1.eyeColor="pink";
+		
+		System.out.println(person1.eyeColor); // now we are getting same values from the human class
+		System.out.println(person1.gender);   //this is just a copy, if we now change the values it will print new values
+		System.out.println(person1.height);
+		System.out.println(person1.weight);
+		
+		
+	}
+	
+	
+	
+	
+}

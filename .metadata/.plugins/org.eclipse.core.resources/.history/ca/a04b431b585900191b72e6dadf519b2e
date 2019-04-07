@@ -1,0 +1,14 @@
+package com.class19;
+
+public class NewAplication {
+
+	
+	public static void main(String[] args) {
+		
+	Minimum obj=new Minimum();
+	
+	obj.minOfValues();
+	
+	
+	}	
+}

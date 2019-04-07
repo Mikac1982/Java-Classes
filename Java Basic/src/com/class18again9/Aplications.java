@@ -9,6 +9,10 @@ public class Aplications {
 		
 		Calculator obj=new Calculator();
 		
+		// int a=10;                 //or other way with using scanner
+		// int b=100;
+		// int d=obj.sum(a,b);
+		// System.out.println(d);
 		
 		System.out.println(obj.sum(10, 20));  //diferent ways of doing this
 		obj.sub(40, 33);

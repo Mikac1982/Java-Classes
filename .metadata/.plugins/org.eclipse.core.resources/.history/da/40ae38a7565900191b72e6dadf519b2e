@@ -1,0 +1,35 @@
+package com.class19;
+
+public class Minimum {
+
+	/*Create a class Called Minimum
+	 * with in it crate a method called minOfValues; make it static
+	 * From your previous Applicaions class call the method and pass an array argument
+	 * and prin out the result
+	 */
+	
+	
+	static void minOfValues() {
+		
+		int[] arr={ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };;
+		
+		int min=0;
+		for (int i=0; i<=arr.length; i++) {
+			
+			if (arr[i]>min) {
+				min=arr[i];
+			}
+			System.out.println(min);
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

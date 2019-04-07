@@ -27,22 +27,28 @@ public class Application {
 	
 
 	String example4(String name) {
-		System.out.println("With return value and with Parameters "+name);
+		System.out.println("With return value and WITH Parameters "+name);
 		return name;
 	}
 
-	boolean example5(String name) { 
+	boolean example5(String name) { //just have to match data type
 		System.out.println("With return value and with Parameters "+name);
 		return false;
 	}
 
-	long example6(char name) { //error hapens during run time
+	long example6(char name) { //error hapens during run time(if its numeric does't fail, if alpha it fails)
 		System.out.println("With return value and with Parameters "+name);	
 	//	name=1;
 		return name;
 	}
 	
-	
-	
+	double example7(char name) {  //special case--> run time expections!(error)
+		System.out.println("With return value and WITH Parameters "+name);
+		return name;
+	}
+	short example8(short name) {
+		System.out.println("With return value and WITH Parameters "+name);
+		return name;
+	}
 	
 }

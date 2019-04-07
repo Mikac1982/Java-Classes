@@ -1,0 +1,22 @@
+package com.class19;
+
+public class Animal2 {
+
+	String breed="Husky";
+	int weight=100;
+	int age=15;
+	String name="John";
+	
+	boolean canBark() {
+		return true;
+		
+	}
+	
+	boolean isWild() {
+		return false;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package com.class19;
+
+public class Application2 {
+
+	
+	public static void main(String[] args) {
+		
+	Animal2 anim=new Animal2();
+	
+	System.out.println(anim.weight);
+	System.out.println(anim.age);
+	System.out.println(anim.breed);
+	System.out.println(anim.name);	
+		
+	}
+}

@@ -27,7 +27,7 @@ public class ScannerMethod {
 	
 	
   public int sum(int a,int b) {        //dinamic(have/take paremeters)
-	//	System.out.println(a+b);  //we changded from void to method with return value(returns int)
+	//System.out.println(a+b);  //we changded from void to method with return value(returns int)
 		return b+a+100;
 	}
 	

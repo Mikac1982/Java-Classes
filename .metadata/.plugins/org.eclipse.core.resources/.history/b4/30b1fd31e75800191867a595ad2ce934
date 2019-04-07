@@ -1,0 +1,32 @@
+package ReplTask;
+
+public class Task92 {
+
+  /*Returns: a double
+    Name: negate
+    Parameters: a double called "num"
+    Then, starting on line 4, write the code that will return the opposite value of num 
+    (if it's positive, make it negative, otherwise make it positive)
+ */
+	
+	public static void main(String[] args) {
+		
+		Task92 obj=new Task92();
+		System.out.println(obj.negate(7));
+		
+	}
+	double negate(double num) {
+		double res;
+		if (num>0) {
+			res=(int) (num-num-num);
+		}if (num<0) {
+			res=num+num+num;
+			
+		}
+		System.out.println(num);
+		return num;
+	}
+	
+	
+	
+}
