@@ -1,0 +1,20 @@
+package oops;
+
+import fruits.Apple;  //we are importing class Apple from the package fruits(now we can access apple class)
+
+public class Tutorial {
+
+	public static void main(String[] args) {
+		
+		Apple a=new Apple();
+		
+		a.color="red";
+		a.whichColor();
+		
+	}
+	
+	
+	
+	
+	
+}

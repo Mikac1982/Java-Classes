@@ -1,0 +1,17 @@
+package oops;
+
+import fruits.Apple;  //we are importing class Apple from the package fruits
+
+public class Tutorial {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+}

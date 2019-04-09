@@ -1,0 +1,22 @@
+package com.class18;
+
+
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		ScannerMethod obj=new ScannerMethod();  //created method for Scanner class
+		obj.sub();
+		obj.sum(a, b)
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -26,7 +26,7 @@ public class Gretingss {
 	
 	void findLargest(int a,int b) {
 	//int a=10;
-	//int b=20;  we hardcoding our method(only comparing same numbers-10 and 20) 
+	//int b=20;  we hard coding our method(only comparing same numbers-10 and 20) 
 		
 		if (a>b) {
 			System.out.println("A is larger than B");

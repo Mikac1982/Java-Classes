@@ -12,14 +12,14 @@ public class Task89 {
 	public static void main(String[] args) {
 		
 		Task89  obj=new Task89 ();
-		obj.practiceOne();
+		System.out.println(obj.practiceOne());
 		
 	}
 	
 	int practiceOne() {
 		int a=2;
-		System.out.println(a);
-		return 2;
+		
+		return a;
 	}
 	
 	

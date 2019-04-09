@@ -5,7 +5,7 @@ public class Calculator {
     //Create a class called Calculator
 	//Have methods that take 3 inputs and return the result
 	//and return the sum, average, min and max
-	
+	// (call it from another class)
 	
 	 int sum(int a,int b,int c) {
 		
@@ -15,7 +15,6 @@ public class Calculator {
 	 int average(int a,int b, int c) {
 		
 		return (a+b+c)/3;
-		
 	}
 	
 	 int min(int a,int b, int c) {

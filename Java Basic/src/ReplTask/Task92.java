@@ -11,15 +11,14 @@ public class Task92 {
 	
 	public static void main(String[] args) {
 		
-		Task92 obj=new Task92();
-		System.out.println(obj.negate(-77));
-		System.out.println(obj.negate(36));
+		System.out.println(negate(77));
+		System.out.println(negate(-36));
 	}
-	double negate(double num) {
-		double oposite ;
-	    oposite=num-num-num;
+	 static double negate(double num) {
+	//	double oposite ;
+	//   oposite=num-num-num;
 			
-		return oposite;
+		return num*(-1);
 	}
 	
 	

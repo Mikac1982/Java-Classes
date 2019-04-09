@@ -1,0 +1,29 @@
+package com.class18_2;
+
+import com.class18.Calculator;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+    ScannerMethod obj=new ScannerMethod();  //created method for Scanner class
+		obj.sub();
+	//	obj.sum(a, b)
+		
+		
+   Calculator obj1=new Calculator();
+   
+   obj1.sum(2, 6);
+	
+   obj1.sub(10, 3);
+	obj1.div(30,10);	
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+}

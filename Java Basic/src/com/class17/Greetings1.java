@@ -6,7 +6,7 @@ public class Greetings1 {
 		
 		Greetings1 obj=new Greetings1();
 		obj.askHowAreYou("Milena");  //ARGUMENT      
-		                            //calling just one method, only matching one 	
+	//	obj.askHowAreYou1("Una");                           //calling just one method, only matching one 	
 	}
 	
 	//void - return type; askHowAreYou - method name

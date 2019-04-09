@@ -1,0 +1,25 @@
+package oops;
+
+import fruits.*;  //we are importing all the classes from the package fruits(now we can access apple class)
+
+public class Tutorial {
+
+	public static void main(String[] args) {  //main  method can be accessible from everywhere (public)
+		
+		Apple a=new Apple();  //creating an object of Apple class
+		
+		a.color="red";
+		a.whichColor();
+		
+		Person mika=new Person(); //creating an object of Person class
+		mika.name="mika";         //initialazing name 
+		mika.introduce();         //calling the method
+		
+		
+	}
+	
+	
+	
+	
+	
+}

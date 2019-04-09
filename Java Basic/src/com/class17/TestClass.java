@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TestClass {
  
-	//Scanner class, String
+	//Scanner class, String class
 	public static void main(String[] args) {
 		
 	
@@ -13,7 +13,7 @@ public class TestClass {
     str.isEmpty(); //built-in method that comes with string class
 	str.charAt(4);
 	
-    Scanner scan=new Scanner(System.in);
+    Scanner scan=new Scanner(System.in); //creating new scanner object
     scan.nextInt();
     
     //Methods are 2 types:

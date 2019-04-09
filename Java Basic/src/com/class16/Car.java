@@ -1,6 +1,7 @@
 package com.class16;
 
 public class Car {
+	
 	String make, model, color;
 	int door, wheels;
 	
@@ -38,7 +39,7 @@ public class Car {
 	}
 	
 	void drive() {
-		System.out.println("Car can drive");
+		System.out.println("Car can drive");  //performing some actions
 	}
 	
 	void reverse() {

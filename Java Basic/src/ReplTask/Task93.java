@@ -13,15 +13,13 @@ public class Task93 {
 	 */
 	
     public static void main(String[] args) {
-		
-		Task93 obj=new Task93();
-		System.out.println(obj.getChar("hello",1));//should be e
+		System.out.println(getChar("hello",1));//should be e
 	}
 	
-	char getChar(String word, int index){
+	 static char getChar(String word, int index){
 	   
-	    System.out.println(word.charAt(index));
-		return 0 ;
+	   char ch=word.charAt(index);
+		return ch ;
 	}
 	
 	

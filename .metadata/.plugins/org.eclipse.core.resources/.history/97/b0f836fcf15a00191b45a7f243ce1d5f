@@ -1,0 +1,15 @@
+package fruits;
+
+class Apple {  //class has DEFAULT access level (available just inside the fruits package)
+	
+	String color;  //default access modifier (level)
+	
+    void whichColor() { 
+		System.out.println("Color is "+color);
+	}
+	
+	
+	
+	
+
+}

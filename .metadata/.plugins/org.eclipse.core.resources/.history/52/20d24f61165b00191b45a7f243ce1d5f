@@ -1,0 +1,23 @@
+package com.class18;
+
+import com.class18_2.ScannerMethod;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		ScannerMethod obj=new ScannerMethod();  //creating method for Scanner class in package 18_2
+		                                        // accessing the Scanner Method class
+		
+		System.out.println(obj.sum(125, 150));  //accessing the method inside that class (calling it)
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

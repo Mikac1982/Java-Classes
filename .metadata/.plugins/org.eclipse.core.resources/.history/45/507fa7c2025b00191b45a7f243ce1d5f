@@ -1,0 +1,13 @@
+package oops;
+
+public class Students {
+
+	//String name;   //instance variable (outside of method)
+	//int age;       //variables are independant from each other from one to another object
+	
+	public static int numStudents;      //shared by all the objects(instances) created from the class
+	                   //we can access static variables without creating an object from the class
+	
+	
+	
+}

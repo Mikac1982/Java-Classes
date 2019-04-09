@@ -1,0 +1,23 @@
+package oops;
+
+public class Student {
+
+	private String name;  //only available inside the same class
+	public int age;
+	
+	
+	void introduce() {
+		System.out.println("Name is "+name+" and age is "+age);
+	}
+	
+	public void setName(String iname) {  // we can access private var name by creating and calling this method
+		name=iname;
+	}
+	
+	public String getName() {  //PUBLIC methods that are used to access PRIVATE members of the class
+		return name;
+	}
+	
+	
+	
+}

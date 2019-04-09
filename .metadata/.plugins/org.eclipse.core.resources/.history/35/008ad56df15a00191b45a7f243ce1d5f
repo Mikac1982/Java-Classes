@@ -1,0 +1,15 @@
+package fruits;
+
+public class Apple {
+	
+	public String color;
+	
+	public void whichColor() {
+		System.out.println("Color is "+color);
+	}
+	
+	
+	
+	
+
+}

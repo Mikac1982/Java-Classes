@@ -1,0 +1,20 @@
+package com.class18_2;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		ScannerMethod obj=new ScannerMethod();
+		obj.sub();
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

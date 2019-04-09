@@ -1,0 +1,22 @@
+package oops;
+
+public class Tutorials {
+
+	public static void main(String[] args) {
+		
+
+	System.out.println(Students.numStudents);  // 0 by default
+		
+//	Students anil=new Students();
+//	Students shreesh=new Students();
+	
+	Students.howManyStudents();
+	
+	
+	}
+	
+	
+	
+	
+	
+}

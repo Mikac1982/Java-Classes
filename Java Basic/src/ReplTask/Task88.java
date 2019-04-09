@@ -9,13 +9,12 @@ public class Task88 {
 
 	
 	boolean beTrue() {
-		System.out.println("true");
 		return true;
 	}
 	public static void main(String[] args) {
 			
 	Task88 obj=new Task88();
-	obj.beTrue();
+	System.out.println(obj.beTrue());
 	
 	}	
 	

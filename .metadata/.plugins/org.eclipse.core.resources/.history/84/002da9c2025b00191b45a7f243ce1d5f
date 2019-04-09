@@ -1,0 +1,18 @@
+package oops;
+
+public class Tutorials {
+
+	public static void main(String[] args) {
+		
+		
+//	Students.numStudents=5;
+	System.out.println(Students.numStudents);
+		
+		
+	}
+	
+	
+	
+	
+	
+}

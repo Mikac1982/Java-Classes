@@ -1,0 +1,31 @@
+package oops;
+
+public class Tutorials {
+
+	public static void main(String[] args) {
+		
+
+	System.out.println(Students.numStudents);  // 0 by default
+		
+	Students anil=new Students();
+	Students shreesh=new Students();
+	
+	anil.name="Anil";  //initializing instance variables of anil object
+	anil.age=24;
+	
+	shreesh.name="Shreesh";
+	shreesh.age=25;
+	
+	anil.introduce();
+	shreesh.introduce();
+	
+	Students.howManyStudents();
+	
+	
+	}
+	
+	
+	
+	
+	
+}
