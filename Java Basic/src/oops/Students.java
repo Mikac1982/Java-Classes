@@ -7,7 +7,7 @@ public class Students {
 	
 	public String name;
 	public int age;
-	public static int numStudents=0;      //shared by all the objects(instances) created from the class
+	public static int numStudents=0;   //STATIC VARIABLE- shared by all the objects(instances) created from the class
 	                   //we can access static variables without creating an object from the class
 	
 	public Students()	{ //constructor

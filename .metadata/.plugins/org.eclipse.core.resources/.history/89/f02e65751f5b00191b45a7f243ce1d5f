@@ -1,0 +1,28 @@
+package com.class20;
+
+public class Task {
+
+	public static void main(String[] args) {
+
+		Task obj=new Task();
+		
+		System.out.println(obj.createEmail("milena", "sibalic", "@gmail.com"));
+	
+		
+	}
+	
+	String createEmail(String name,String lastName, String type){
+		
+		String emailAdress=name+lastName+type;
+		
+		return emailAdress;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

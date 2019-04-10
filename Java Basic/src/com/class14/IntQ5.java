@@ -33,9 +33,11 @@ public class IntQ5 {
 	   // fine! be to going is Everything
 	   
 	  String[] arr=str.split(" ");
-	  for (String word : arr) {
+	  
+      for (String word:arr) {
+    	  
+      }
 		  
-	  }
 	  for (int i=arr.length-1; i>=0; i--) {
 		 System.out.println(arr[i]);
 	  }

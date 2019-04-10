@@ -1,0 +1,74 @@
+package com.class20;
+
+public class AccessModifiers {
+
+	/*Create a method that will take 1 parameter as a String and return reversed String.
+	 *  Method should be visibly only within same package.
+	 *  
+        Create a method that will take a String and return whether String is palindrome or not. 
+        Method should available to all classes within your projects.
+        
+        Create a method that will take a string and return array of words from that string.
+        Method should be available only within same class.
+	 */
+	
+	public static void main(String[] args) {
+	
+		AccessModifiers obj=new AccessModifiers();
+		
+		System.out.println(obj.reverse("How are you?"));
+		System.out.println(obj.isPalindrome("madam"));
+		System.out.println(obj.returnArray("I need vacation soon"));
+	}
+	
+	 String reverse(String name) {
+		
+		String reversed="";
+		
+		for (int i=name.length()-1; i>=0; i--) {
+			reversed+=name.charAt(i);
+		}
+		return reversed;
+	}
+	
+	public boolean isPalindrome (String str) {
+		
+		String reverse="";
+		boolean palindrome;
+		
+		for (int i=str.length()-1; i>=0; i--) {
+			reverse+=str.charAt(i);
+		}
+		if (str.equalsIgnoreCase(reverse)) {
+			palindrome=true;
+		 }else {
+			 palindrome=false;
+		
+	}
+		return palindrome;	
+
+	}
+	
+	private String returnArray(String str) {
+		
+		String words=null;
+		
+		String[] arr=str.split(" ");
+		  for (int i=0; i<arr.length; i++) {
+			  
+		  }
+		  for (int i=arr.length-1; i>=0; i--) {
+			 System.out.println(arr[i]);
+		  }
+		return words;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

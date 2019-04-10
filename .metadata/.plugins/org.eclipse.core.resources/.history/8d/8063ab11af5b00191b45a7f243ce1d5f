@@ -1,0 +1,34 @@
+package com.class20;
+
+public class AccessModifiers2 {
+	
+    public static void main(String[] args) {
+    	
+    	AccessModifiers2 obj=new AccessModifiers2();	
+    	
+    	String rev=obj.reverseString("How are you?");
+    	System.out.println(rev);
+    	
+    	
+    }     
+    // Create a method that will take 1 parameter as a String and return reversed String.
+    // Method should be visibly only within same package.	
+    	
+    protected String reverseString(String str)	{
+    	String reversed="";
+    	
+    	for (int i=str.length(); i>=0; i--) {
+    		reversed=reversed+str.charAt(i);
+    	}
+    	return reversed;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+}
